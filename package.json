@@ -1,0 +1,12 @@
+{
+  "name": "@opencircuitlabs/logic-analyzer-core",
+  "version": "1.0.0",
+  "description": "Validated digital capture, trigger, measurement, compression, and VCD primitives",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "logic-capture": "src/cli.js" },
+  "scripts": { "test": "node --test", "check": "npm test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

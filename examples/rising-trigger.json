@@ -1,0 +1,1 @@
+{ "op": "and", "conditions": [{ "op": "edge", "channel": "data", "edge": "rising" }, { "op": "level", "channel": "enable", "value": 1 }] }
